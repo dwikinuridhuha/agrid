@@ -20,29 +20,72 @@
     -moz-font-feature-settings: 'liga';
     -moz-osx-font-smoothing: grayscale;
 }
-
-.middle-indicator{
-    position:absolute;
-    top:50%;
+.tulisan-hijau-gelap {
+    color: #1b5e20;
 }
-.middle-indicator-text{
-    font-size: 4.2rem;
+.warna-hijau-gelap {
+    background-color: #1b5e20;
 }
-a.middle-indicator-text{
-    color:white !important;
+.warna-kuning-gelap {
+    background-color: #ff6f00;
 }
-.content-indicator{
-    width: 64px;
-    height: 64px;
-    background: none;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+.warna-grey-sedikit {
+    background-color: #e6e6e6;
 }
-.indicators{
-    visibility: hidden;
+.btn:hover, .btn-large:hover {
+    background-color: #ffc328;
 }
 
+/*nav bar*/
+.center.row {
+    width: 800px;
+}
+a.brand-logo {
+    margin-left: 30px;
+}
+ul.right {
+    margin-right: 30px;
+}
+#sidenav-overlay {
+    z-index: 10;
+}
+
+/*SLIDER COURUSEL*/
+.satu {
+    background-image: url("/img/markus-spiske-444652-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider .indicators .indicator-item {
+    background-color: #666666;
+    border: 3px solid #ffffff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+    background-color: #ffffff;
+}
+.slider .indicators {
+    bottom: 60px;
+    z-index: 100;
+    /* text-align: left; */
+}
+
+/*isi konten*/
 .warna-star {
     color: yellow;
+}
+.card .card-image img {
+    height: 145px;
+}
+
+/*footer geng*/
+footer ul.icon-saya li{
+    width: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+footer ul.perusahaan-list li {
+    margin-top: 10px;
 }

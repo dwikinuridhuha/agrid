@@ -11,62 +11,104 @@
 <!--header-->
     <!--awal navigasi-->
     <div class="navbar-fixed">
-        <nav>
-            <div class="container">
+        <nav class="warna-hijau-gelap">
                 <div class="nav-wrapper">
                     <a href="#!" class="brand-logo">Logo</a>
-                    <a href="#" data-activates="mobile-collep" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <a href="#" data-activates="mobile-menu" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                    </a>
 
                     <ul class="right hide-on-med-and-down">
-                        <li class="waves-effect"><a href="#">toko</a></li>
-                        <li class="waves-effect"><a href="#">keranjang</a></li>
+                        <li><a class="dropdown-trigger dropdown-button" href="#!" data-activates="dropdown1">Kategori<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li>
+                            <div class="center row">
+                                <div class="col s12">
+                                    <div class="row">
+                                        <form>
+                                            <div class="input-field col s12 white-text">
+                                                <i class="white-text material-icons prefix">search</i>
+                                                <input type="text" placeholder="ketik di sini untuk mencari" class="white-text-text">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="waves-effect"><a href="#"><i class="material-icons">shopping_basket</i></a></li>
+                        <li class="waves-effect"><a href="#"><i class="material-icons">shopping_cart</i></a></li>
                         <li class="waves-effect"><a href="#">daftar</a></li>
                         <li class="waves-effect"><a href="#">masuk</a></li>
                     </ul>
 
-                    <ul class="side-nav" id="mobile-collep">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
-                        <li><a href="collapsible.html">Javascript</a></li>
-                        <li><a href="mobile.html">Mobile</a></li>
+                    <ul class="side-nav" id="mobile-menu">
+                        <li>
+                            <div class="center row">
+                                <div class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12 white-text">
+                                            <i class="white-text material-icons prefix">search</i>
+                                            <input type="text" placeholder="search" class="white-text-text" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="waves-effect"><a href="#">toko</a></li>
+                        <li class="waves-effect"><a href="#">daftar</a></li>
+                        <li class="waves-effect"><a href="#">masuk</a></li>
+                    </ul>
+
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="#!">one</a></li>
+                        <li><a href="#!">two</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">three</a></li>
                     </ul>
                 </div>
-            </div>
         </nav>
     </div>
     <!--akhir navigasi-->
 
     <!--awal slider-->
-    <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center middle-indicator">
-            <div class="left">
-                <a href="Previo" class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="material-icons left  middle-indicator-text">chevron_left</i></a>
-            </div>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/markus-spiske-444652-unsplash.jpg">
+                <div class="caption center-align">
+                    <h3>
+                        MEMBAWA TEKNOLOGI, <BR> KAMI INGIN MAJU BERSAMA PETANI
+                    </h3>
 
-            <div class="right">
-                <a href="Siguiente" class=" moveNextCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="material-icons right middle-indicator-text">chevron_right</i></a>
-            </div>
-        </div>
+                    <a class="waves-effect waves-light warna-kuning-gelap btn-large">Button</a>
+                </div>
+            </li>
 
-        <div class="carousel-item red white-text" href="#one!">
-            <h2>First Panel</h2>
-            <p class="white-text">This is your first panel</p>
-        </div>
+            <li>
+                <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
 
-        <div class="carousel-item amber white-text" href="#two!">
-            <h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
-        </div>
+            <li>
+                <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
 
-        <div class="carousel-item green white-text" href="#three!">
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
-        </div>
-
-        <div class="carousel-item blue white-text" href="#four!">
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
-        </div>
+            <li>
+                <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
     </div>
     <!--akhir slider-->
 <!--akhir header-->
@@ -79,7 +121,7 @@
                 <h3 class="center-align">Produk Baik</h3>
             </div>
 
-            <div class="col s3">
+            <div class="col l3 m6">
                 <div class="card">
                     <div class="card-image">
                         <img src="img/1.jpeg">
@@ -105,17 +147,103 @@
                     </div>
 
                     <div class="card-action">
-                        <a class="waves-effect waves-light btn">Selengkapnya</a>
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col s3 blue">3-columns (one-half)</div>
+            <div class="col l3 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frezier4.jpg">
+                    </div>
 
-            <div class="col s3 grey">3-columns (one-half)</div>
+                    <div class="card-content center-align">
+                        <p>Pupuk terbaik badas</p>
 
-            <div class="col s3 green">3-columns (one-half)</div>
+                        <div class="warna-star">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_border</i>
+                        </div>
 
+                        <p>Rp 12.000</p>
+                    </div>
+
+                    <div class="card-action">
+                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
+                        <p><i class="material-icons">add_location</i> Kota Malang</p>
+                    </div>
+
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frezier2.jpg">
+                    </div>
+
+                    <div class="card-content center-align">
+                        <p>Pupuk terbaik badas</p>
+
+                        <div class="warna-star">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_half</i>
+                        </div>
+
+                        <p>Rp 12.000</p>
+                    </div>
+
+                    <div class="card-action">
+                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
+                        <p><i class="material-icons">add_location</i> Kota Malang</p>
+                    </div>
+
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frezier3.jpg">
+                    </div>
+
+                    <div class="card-content center-align">
+                        <p>Pupuk terbaik badas</p>
+
+                        <div class="warna-star">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                        </div>
+
+                        <p>Rp 12.000</p>
+                    </div>
+
+                    <div class="card-action">
+                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
+                        <p><i class="material-icons">add_location</i> Kota Malang</p>
+                    </div>
+
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--akhir produk ...-->
@@ -129,7 +257,8 @@
                 <h3 class="center-align">Produk Best</h3>
             </div>
 
-            <div class="col s3">
+
+            <div class="col l3 m6">
                 <div class="card">
                     <div class="card-image">
                         <img src="img/1.jpeg">
@@ -155,46 +284,162 @@
                     </div>
 
                     <div class="card-action">
-                        <a class="waves-effect waves-light btn">Selengkapnya</a>
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col s3 blue">3-columns (one-half)</div>
-            <div class="col s3 grey">3-columns (one-half)</div>
-            <div class="col s3 green">3-columns (one-half)</div>
+            <div class="col l3 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frezier4.jpg">
+                    </div>
+
+                    <div class="card-content center-align">
+                        <p>Pupuk terbaik badas</p>
+
+                        <div class="warna-star">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_border</i>
+                        </div>
+
+                        <p>Rp 12.000</p>
+                    </div>
+
+                    <div class="card-action">
+                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
+                        <p><i class="material-icons">add_location</i> Kota Malang</p>
+                    </div>
+
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frezier2.jpg">
+                    </div>
+
+                    <div class="card-content center-align">
+                        <p>Pupuk terbaik badas</p>
+
+                        <div class="warna-star">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_half</i>
+                        </div>
+
+                        <p>Rp 12.000</p>
+                    </div>
+
+                    <div class="card-action">
+                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
+                        <p><i class="material-icons">add_location</i> Kota Malang</p>
+                    </div>
+
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frezier3.jpg">
+                    </div>
+
+                    <div class="card-content center-align">
+                        <p>Pupuk terbaik badas</p>
+
+                        <div class="warna-star">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                        </div>
+
+                        <p>Rp 12.000</p>
+                    </div>
+
+                    <div class="card-action">
+                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
+                        <p><i class="material-icons">add_location</i> Kota Malang</p>
+                    </div>
+
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--akhir produk ...-->
 <!--akhir konten-->
 
 <!--footer-->
-    <footer class="page-footer">
+    <footer class="page-footer warna-grey-sedikit">
+
+        <div class="container black-text">
+            Agrid adalah
+        </div>
+
+        <hr>
+
         <div class="container">
             <div class="row">
                 <div class="col s4">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <h5 class="tulisan-hijau-gelap">Agrid</h5>
+                    <p class="black-text">
+                        <i class="material-icons">local_phone</i>
+                        +62 89 687 837 120
+                    </p>
+
+                    <p class="black-text">
+                        <i class="material-icons">email</i>
+                        agrid@gmail.com
+                    </p>
+
+                    <p class="black-text">
+                        <i class="material-icons">add_location</i>
+                        Lokasinya di rahasiakan dulu ya
+                    </p>
                 </div>
 
                 <div class="col s4">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    <h5 class="tulisan-hijau-gelap">Perusahaan</h5>
+                    <ul class="perusahaan-list">
+                        <li><a class="black-text" href="#!">Tentang Kami</a></li>
+                        <li><a class="black-text" href="#!">Karir</a></li>
+                        <li><a class="black-text" href="#!">Blog</a></li>
+                        <li><a class="black-text" href="#!">Pertanyaan</a></li>
                     </ul>
                 </div>
 
                 <div class="col s4">
-                    <h5 class="white-text">More Links</h5>
+                    <h5 class="tulisan-hijau-gelap">More Links</h5>
+                    <ul class="icon-saya">
+                        <li><img src="img/google-plus.svg"></li>
+                        <li><img src="img/linkedin.svg"></li>
+                        <li><img src="img/line.svg"></li>
+                        <li><img src="img/instagram.svg"></li>
+                        <li><img src="img/facebook.svg"></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
-            <div class="container center-align">
-                © 2014 Copyright Text
+            <div class="container center-align black-text">
+                © 2018 Copyright Text
             </div>
         </div>
     </footer>
