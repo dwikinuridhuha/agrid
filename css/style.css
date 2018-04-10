@@ -30,7 +30,7 @@
     background-color: #ff6f00;
 }
 .warna-grey-sedikit {
-    background-color: #e6e6e6;
+    background-color: #f4f4f4;
 }
 .btn:hover, .btn-large:hover {
     background-color: #ffc328;
@@ -78,6 +78,28 @@ ul.right {
 }
 .card .card-image img {
     height: 145px;
+}
+
+div.box-produk {
+    border: 2px solid #e6e6e6;
+}
+div ul.icon-saya li{
+    width: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+div ul.icon-saya li.tambah{
+    margin-right: 35px;
+}
+.breadcrumb-margin {
+    margin-top: 15px;
+}
+.breadcrumb:before {
+    color: black;
+}
+.bagi-select {
+    margin-top: -15px;
+    margin-bottom: -10px;
 }
 
 /*footer geng*/

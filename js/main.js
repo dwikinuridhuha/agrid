@@ -6,4 +6,6 @@ $(document).ready(function () {
     $('.slider').slider({
         indicators: true
     });
+
+    $('select').material_select();
 });
