@@ -4,7 +4,6 @@
     font-weight: 400;
     src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v18/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
 }
-
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -101,10 +100,17 @@ div ul.icon-saya li.tambah{
     margin-top: -15px;
     margin-bottom: -10px;
 }
+.pagination li.active{
+    background-color: #1b5e20;
+}
 
 /*footer geng*/
+footer .pembatas-agrid {
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
 footer ul.icon-saya li{
-    width: 25px;
+    width: 35px;
     display: inline-block;
     margin-right: 5px;
 }
