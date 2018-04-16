@@ -31,6 +31,9 @@
 .warna-grey-sedikit {
     background-color: #f4f4f4;
 }
+.tulisan-warna-grey-sedikit {
+    color: #f4f4f4;
+}
 .btn:hover, .btn-large:hover {
     background-color: #ffc328;
 }
@@ -79,7 +82,7 @@ ul.right {
     height: 145px;
 }
 
-div.box-produk {
+div.box-produk, div.side-bar {
     border: 2px solid #e6e6e6;
 }
 div ul.icon-saya li{
@@ -104,7 +107,33 @@ div ul.icon-saya li.tambah{
     background-color: #1b5e20;
 }
 
-/*footer geng*/
+/*side-bar*/
+.side-bar-margin {
+    margin-left: 50px;
+}
+.title-sidebar {
+    border-bottom: 2px solid #f4f4f4;
+}
+.isi-side-bar {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+div.kategori-side-bar ul li a{
+    color: black;
+}
+div.kategori-side-bar ul li a:hover{
+    color: #48ff55;
+}
+div.kategori-side-bar>ul>li {
+    margin: 0 0 10px 15px;
+}
+div.kategori-side-bar>ul>ul.kategori-child {
+    margin: 0 0 10px 15px;
+}
+div.kategori-side-bar>ul>ul.kategori-child>li {
+    margin: 0 0 10px 15px;
+}
+/*footer*/
 footer .pembatas-agrid {
     padding: 20px 0;
     margin-bottom: 20px;
