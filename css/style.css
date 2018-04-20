@@ -107,6 +107,12 @@ div ul.icon-saya li.tambah{
     background-color: #1b5e20;
 }
 
+/*masuk-login*/
+div.masuk-login {
+    margin-top: 55px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
 /*side-bar*/
 .side-bar-margin {
     margin-left: 50px;
