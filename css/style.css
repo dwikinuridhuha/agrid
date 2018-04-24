@@ -139,6 +139,12 @@ div.kategori-side-bar>ul>ul.kategori-child {
 div.kategori-side-bar>ul>ul.kategori-child>li {
     margin: 0 0 10px 15px;
 }
+/*carausel*/
+.carousel .carousel-item {
+    width: 260px !important;
+    height: 260px !important;
+}
+
 /*footer*/
 footer .pembatas-agrid {
     padding: 20px 0;
