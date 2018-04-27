@@ -3,8 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-</head>
-<body>
 
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="warna-grey-sedikit">
+<!--header-->
+<!--awal navigasi-->
+<div class="navbar-fixed">
+    <nav class="warna-hijau-gelap">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a class="dropdown-trigger dropdown-button" href="#!" data-activates="dropdown1">Kategori<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li>
+                    <div class="center row">
+                        <div class="col s12">
+                            <div class="row">
+                                <form>
+                                    <div class="input-field col s12 white-text">
+                                        <i class="white-text material-icons prefix">search</i>
+                                        <input type="text" placeholder="ketik di sini untuk mencari" class="white-text-text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="waves-effect"><a href="#"><i class="material-icons">shopping_basket</i></a></li>
+                <li class="waves-effect"><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+                <li class="waves-effect"><a href="#">daftar</a></li>
+                <li class="waves-effect"><a href="#">masuk</a></li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-menu">
+                <li>
+                    <div class="center row">
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12 white-text">
+                                    <i class="white-text material-icons prefix">search</i>
+                                    <input type="text" placeholder="search" class="white-text-text" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="waves-effect"><a href="#">toko</a></li>
+                <li class="waves-effect"><a href="#">daftar</a></li>
+                <li class="waves-effect"><a href="#">masuk</a></li>
+            </ul>
+
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--akhir navigasi-->
+<!--akhir dari header-->
+
+<!--konten-->
+<div class="warna-grey-sedikit">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 pembayaran-content">
+                <div class="row pembayaran-header">
+                    <div class="col s6 left-align tulisan-hijau-gelap">
+                        <h5><b>Total Pembayaran</b></h5>
+                    </div>
+
+                    <div class="col s6 right-align tulisan-hijau-gelap">
+                        <h5><b>Rp 185.000</b></h5>
+                    </div>
+
+                    <div class="col s12">
+                        <button class="btn btn-large waves-effect warna-kuning-gelap">metode pembayaran</button>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row pembayaran-daftar">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header">
+                                Toko 1
+                                <i class="material-icons">arrow_drop_down</i>
+                            </div>
+
+                            <div class="collapsible-body">
+                                <ul class="collection">
+                                    <li class="collection-item avatar">
+                                        <img src="img/frezier1.jpg" alt="" class="circle">
+                                        <span class="title">Nama Produk</span>
+                                        <p>
+                                            Pupuk kok baik sih
+                                        </p>
+                                        <p>
+                                            Rp. 41.99x3
+                                        </p>
+
+                                        <a href="#!" class="secondary-content">
+                                            <i class="material-icons red-text">delete</i>
+                                        </a>
+                                    </li>
+                                    <li class="collection-item avatar">
+                                        <i class="material-icons circle">folder</i>
+                                        <span class="title">Title</span>
+                                        <p>First Line <br>
+                                            Second Line
+                                        </p>
+                                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                    </li>
+                                    <li class="collection-item avatar">
+                                        <i class="material-icons circle green">insert_chart</i>
+                                        <span class="title">Title</span>
+                                        <p>First Line <br>
+                                            Second Line
+                                        </p>
+                                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                    </li>
+                                    <li class="collection-item avatar">
+                                        <i class="material-icons circle red">play_arrow</i>
+                                        <span class="title">Title</span>
+                                        <p>First Line <br>
+                                            Second Line
+                                        </p>
+                                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                    </li>
+                                </ul>
+
+                                <hr>
+
+                                <ul class="collapsible">
+                                    <li>
+                                        <div class="collapsible-header">
+                                            Informasi Detail
+                                            <i class="material-icons">arrow_drop_down</i>
+                                        </div>
+
+                                        <div class="collapsible-body clearfix">
+                                            <span>
+                                                <p><span class="pembayaran-title">Penerima</span><span class="pembayaran-isi">:</span><b>Dwiki Nuridhuna</b></p>
+
+                                                <p><span class="pembayaran-title">Kurir Pengirim</span><span class="pembayaran-isi">:</span><b>JNE</b></p>
+
+                                                <p><span  class="pembayaran-title">Total Barang</span><span class="pembayaran-isi">:</span><b>5 Kg</b></p>
+
+                                                <p><span class="pembayaran-title">Subtotal</span><span class="pembayaran-isi">:</span><b>Rp 50.000</b></p>
+
+                                                <p><span class="pembayaran-title">Biaya Kirim</span><span class="pembayaran-isi">:</span><b>Rp 100.000</b></p>
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <hr>
+
+                                <h4 class="clearfix"><span class="left">Total: </span><span class="right">Rp 125.000</span></h4>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--akhir konten-->
+
+<!--footer-->
+<footer class="page-footer warna-grey-sedikit">
+
+    <div class="black-text white pembatas-agrid z-depth-1">
+        <div class="container">
+            Agrid adalah
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s4">
+                <h5 class="tulisan-hijau-gelap">Agrid</h5>
+                <p class="black-text">
+                    <i class="material-icons">local_phone</i>
+                    +62 89 687 837 120
+                </p>
+
+                <p class="black-text">
+                    <i class="material-icons">email</i>
+                    agrid@gmail.com
+                </p>
+
+                <p class="black-text">
+                    <i class="material-icons">add_location</i>
+                    Lokasinya di rahasiakan dulu ya
+                </p>
+            </div>
+
+            <div class="col s4">
+                <h5 class="tulisan-hijau-gelap">Perusahaan</h5>
+                <ul class="perusahaan-list">
+                    <li><a class="black-text" href="#!">Tentang Kami</a></li>
+                    <li><a class="black-text" href="#!">Karir</a></li>
+                    <li><a class="black-text" href="#!">Blog</a></li>
+                    <li><a class="black-text" href="#!">Pertanyaan</a></li>
+                </ul>
+            </div>
+
+            <div class="col s4">
+                <h5 class="tulisan-hijau-gelap">Ikuti Kami</h5>
+                <ul class="icon-saya">
+                    <li><img src="img/google-plus.svg"></li>
+                    <li><img src="img/linkedin.svg"></li>
+                    <li><img src="img/line.svg"></li>
+                    <li><img src="img/instagram.svg"></li>
+                    <li><img src="img/facebook.svg"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container center-align black-text">
+            © 2018 Copyright Text
+        </div>
+    </div>
+</footer>
+<!--akhir footer-->
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

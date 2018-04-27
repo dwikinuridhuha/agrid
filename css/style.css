@@ -37,6 +37,11 @@
 .btn:hover, .btn-large:hover {
     background-color: #ffc328;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /*nav bar*/
 .center.row {
@@ -145,6 +150,46 @@ div.kategori-side-bar>ul>ul.kategori-child>li {
     height: 260px !important;
 }
 
+/*kontern pembayaran*/
+div.pembayaran-content {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #e6e6e6;
+    margin-top: 50px;
+}
+div.pembayaran-content .pembayaran-header{
+    margin: 20px;
+}
+div.pembayaran-content .pembayaran-header .col.s6{
+    margin-bottom: 20px;
+}
+div.pembayaran-content .pembayaran-header .s12 .btn{
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+div.pembayaran-content .pembayaran-daftar {
+    margin: 20px;
+}
+div.pembayaran-content .pembayaran-daftar .pembayaran-title {
+    color: grey;
+    display: inline-block;
+    width: 115px;
+}
+div.pembayaran-content .pembayaran-daftar .pembayaran-isi {
+    margin-right: 5px;
+}
+div.pembayaran-content .pembayaran-daftar .collection .collection-item {
+    padding-left: 130px !important;
+    min-height: 120px !important;
+}
+div.pembayaran-content .pembayaran-daftar .collection .collection-item .secondary-content {
+    top: 30px !important;
+}
+div.pembayaran-content .pembayaran-daftar .collection .circle {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 10px !important;
+}
 /*footer*/
 footer .pembatas-agrid {
     padding: 20px 0;
