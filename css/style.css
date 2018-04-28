@@ -48,7 +48,11 @@
     width: 800px;
 }
 a.brand-logo {
+    margin-top: 5px;
     margin-left: 30px;
+}
+.item-logo{
+    width: 100px;
 }
 ul.right {
     margin-right: 30px;
