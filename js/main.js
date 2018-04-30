@@ -1,15 +1,21 @@
-$(document).ready(function () {
-    $('.pilih-gambar-detail-produk').carousel({
-        indicators: true
+(function ($) {
+    $(document).ready(function () {
+        $('.pilih-gambar-detail-produk').carousel({
+            indicators: true
+        });
+
+        $('.button-collapse').sideNav();
+
+        $('.dropdown-trigger').dropdown();
+
+        $('.slider').slider({
+            indicators: true
+        });
+
+        $('select').material_select();
     });
 
-    $('.button-collapse').sideNav();
-    
-    $('.dropdown-trigger').dropdown();
-
-    $('.slider').slider({
-        indicators: true
+    $(document).ready(function () {
+        $('.modal').modal();
     });
-
-    $('select').material_select();
-});
+})(jQuery);

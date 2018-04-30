@@ -144,6 +144,14 @@ div.kategori-side-bar>ul>ul.kategori-child {
 div.kategori-side-bar>ul>ul.kategori-child>li {
     margin: 0 0 10px 15px;
 }
+.isi-side-bar .account-size {
+    font-size: 120px;
+}
+.isi-side-bar .beli-btn {
+    margin-bottom: 30px;
+    width: 60%;
+    border-radius: 10px
+}
 /*carausel*/
 .carousel .carousel-item {
     width: 260px !important;
