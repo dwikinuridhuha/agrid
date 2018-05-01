@@ -19,8 +19,26 @@
     -moz-font-feature-settings: 'liga';
     -moz-osx-font-smoothing: grayscale;
 }
+.thick{
+    font-weight: bold;
+}
+.harga-produk{
+    font-size: 15px;
+}
+#tulisan-slider-pertama{
+    margin-top: 10px;
+}
+#tulisan-slider-kedua{
+    margin-top: 45px;
+}
+.tulisan-shadow{
+    text-shadow: 1px 1px 6px black;
+}
 .tulisan-hijau-gelap {
     color: #1b5e20;
+}
+.warna-orange-agrid{
+    background-color: #e79418d5;
 }
 .warna-hijau-gelap {
     background-color: #1b5e20;
@@ -35,19 +53,23 @@
     color: #f4f4f4;
 }
 .btn:hover, .btn-large:hover {
-    background-color: #ffc328;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+    background-color: #e79418d5;
 }
 
 /*nav bar*/
 .center.row {
-    width: 800px;
+    width: 100%;
 }
 a.brand-logo {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.item-logo{
+    width: 100px;
+}
+.logo-form{
+    width: 180px;
+    margin-top: 40px;
     margin-left: 30px;
 }
 ul.right {
@@ -114,9 +136,9 @@ div ul.icon-saya li.tambah{
 
 /*masuk-login*/
 div.masuk-login {
-    margin-top: 55px;
-    margin-bottom: 25px;
-    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 3px;
 }
 /*side-bar*/
 .side-bar-margin {
@@ -150,46 +172,6 @@ div.kategori-side-bar>ul>ul.kategori-child>li {
     height: 260px !important;
 }
 
-/*kontern pembayaran*/
-div.pembayaran-content {
-    background-color: white;
-    border-radius: 20px;
-    border: 2px solid #e6e6e6;
-    margin-top: 50px;
-}
-div.pembayaran-content .pembayaran-header{
-    margin: 20px;
-}
-div.pembayaran-content .pembayaran-header .col.s6{
-    margin-bottom: 20px;
-}
-div.pembayaran-content .pembayaran-header .s12 .btn{
-    width: 100% !important;
-    border-radius: 15px !important;
-}
-div.pembayaran-content .pembayaran-daftar {
-    margin: 20px;
-}
-div.pembayaran-content .pembayaran-daftar .pembayaran-title {
-    color: grey;
-    display: inline-block;
-    width: 115px;
-}
-div.pembayaran-content .pembayaran-daftar .pembayaran-isi {
-    margin-right: 5px;
-}
-div.pembayaran-content .pembayaran-daftar .collection .collection-item {
-    padding-left: 130px !important;
-    min-height: 120px !important;
-}
-div.pembayaran-content .pembayaran-daftar .collection .collection-item .secondary-content {
-    top: 30px !important;
-}
-div.pembayaran-content .pembayaran-daftar .collection .circle {
-    width: 100px !important;
-    height: 100px !important;
-    border-radius: 10px !important;
-}
 /*footer*/
 footer .pembatas-agrid {
     padding: 20px 0;
