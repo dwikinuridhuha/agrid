@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>AGRID</title>
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 <body>
 <!--header-->
@@ -13,7 +13,7 @@
     <div class="navbar-fixed">
         <nav class="warna-hijau-gelap">
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#!" class="brand-logo"><img src="img/logo-agrid.png" class="item-logo"></a>
                     <a href="#" data-activates="mobile-menu" class="button-collapse">
                         <i class="material-icons">menu</i>
                     </a>
@@ -21,13 +21,13 @@
                     <ul class="right hide-on-med-and-down">
                         <li><a class="dropdown-trigger dropdown-button" href="#!" data-activates="dropdown1">Kategori<i class="material-icons right">arrow_drop_down</i></a></li>
                         <li>
-                            <div class="center row">
+                            <div class="row" style="width: 800px;">
                                 <div class="col s12">
                                     <div class="row">
                                         <form>
                                             <div class="input-field col s12 white-text">
                                                 <i class="white-text material-icons prefix">search</i>
-                                                <input type="text" placeholder="ketik di sini untuk mencari" class="white-text-text">
+                                                <input type="text" placeholder="Ketik disini untuk Pencarian Pupuk" class="white-text-text">
                                             </div>
                                         </form>
                                     </div>
@@ -37,18 +37,18 @@
 
                         <li class="waves-effect"><a href="#"><i class="material-icons">shopping_basket</i></a></li>
                         <li class="waves-effect"><a href="#"><i class="material-icons">shopping_cart</i></a></li>
-                        <li class="waves-effect"><a href="#">daftar</a></li>
-                        <li class="waves-effect"><a href="#">masuk</a></li>
+                        <li class="waves-effect"><a href="#">Daftar</a></li>
+                        <li class="waves-effect"><a href="#">Masuk</a></li>
                     </ul>
 
                     <ul class="side-nav" id="mobile-menu">
                         <li>
-                            <div class="center row">
+                            <div class="row" style="width: 800px">
                                 <div class="col s12">
                                     <div class="row">
                                         <div class="input-field col s12 white-text">
-                                            <i class="white-text material-icons prefix">search</i>
-                                            <input type="text" placeholder="search" class="white-text-text" >
+                                            <i class="black-text material-icons prefix">search</i>
+                                            <input type="text" placeholder="Cari Pupuk" class="white-text-text" >
                                         </div>
                                     </div>
                                 </div>
@@ -61,10 +61,8 @@
                     </ul>
 
                     <ul id="dropdown1" class="dropdown-content">
-                        <li><a href="#!">one</a></li>
-                        <li><a href="#!">two</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#!">three</a></li>
+                        <li><a href="#!">Pupuk Organik</a></li>
+                        <li><a href="#!">Pupuk Anorganik</a></li>
                     </ul>
                 </div>
         </nav>
@@ -75,37 +73,36 @@
     <div class="slider">
         <ul class="slides">
             <li>
-                <img src="img/markus-spiske-444652-unsplash.jpg">
+                <img src="img/slider1.jpg">
                 <div class="caption center-align">
-                    <h3>
-                        MEMBAWA TEKNOLOGI, <BR> KAMI INGIN MAJU BERSAMA PETANI
+                    <h3 class="tulisan-shadow" id="tulisan-slider-pertama">
+                        MAJU BERSAMA PETANI<BR>MELALUI TEKNOLOGI
                     </h3>
-
-                    <a class="waves-effect waves-light warna-kuning-gelap btn-large">Button</a>
+                    <a class="waves-effect waves-light warna-orange-agrid btn-large">Cari Pupuk</a>
                 </div>
             </li>
 
             <li>
-                <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-                <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                <img src="img/slider2.jpg"> <!-- random image -->
+                <div class="caption left-align" id="tulisan-slider-kedua">
+                    <h3 class="tulisan-shadow">Bersama AGRID</h3>
+                    <h5 class="light grey-text text-lighten-3 tulisan-shadow">Pemilik lahan atau petani dapat memperoleh pupuk<br>dengan kualitas terbaik dan harga yang terjangkau</h5>
                 </div>
             </li>
 
             <li>
-                <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                <img src="img/slider3.jpg"> <!-- random image -->
                 <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3 class="tulisan-shadow">AGRID</h3>
+                        <h5 class="light grey-text text-lighten-3 tulisan-shadow">Mempermudah pemilik lahan atau petani dalam<br>mendapatkan informasi terkait kebutuhan pupuk</h5>    
                 </div>
             </li>
 
             <li>
-                <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                <img src="img/slider4.jpg"> <!-- random image -->
                 <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="tulisan-shadow">AGRID</h3>
+                    <h5 class="light grey-text text-lighten-3 tulisan-shadow">Agrid (Agriculture Indonesia) adalah sebuah wadah<br>bagi para pemilik lahan atau petani untuk mendapatkan<br>pupuk yang berkualitas dan dengan harga yang terjangkau.</h5>
                 </div>
             </li>
         </ul>
@@ -118,18 +115,53 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h3 class="center-align">Produk Baik</h3>
+                <hr><h5 class="center-align thick">PRODUK REKOMENDASI</h5><hr style="margin-bottom: 40px;">
+            </div>
+            <div class="col l4 m6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 220px;" src="img/produk/pupukA.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pupuk NPK Mutiara 16<i class="material-icons right">more_vert</i></span> <!--maksimal 20 karakter-->
+                        <div class="card-action">
+                            <p class="harga-produk">Rp 17.000</p>
+                        </div>
+                        <a class="waves-effect waves-light btn warna-hijau-gelap" style="width: 100%; margin-top: 20px;">Beli</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pupuk NPK Mutiara 16-16-16<i class="material-icons right">close</i></span>
+                        <div class="warna-star">
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_border</i>
+                        </div>
+                        <p><i class="material-icons">location_on</i> Kota Malang</p>
+                        <p>Made in: Rusia
+                            <br>Spesifikasi: Nitrogen (N) 16% Fosfor (P205) 16% Kalium (K20) 16% Magnesium Oksida (MgO) 1,5% Kalsium Oksida (CaO) 5%
+                            <br>Berat: 1Kg
+                            <br><br>Pupuk NPK 16:16:16 Mutiara adalah pupuk pada masa bertumbuhan, berkualitas terpercaya yang sudah dipakai oleh petani di seluruh dunia. Dengan segala kelebihan dan keutamaannya pupuk ini dapat meningkatkan produksi serta meningkatkan kualitas panen.
+                        </p>
+                    </div>
+                </div>    
             </div>
 
-            <div class="col l3 m6">
+            <div class="col l4 m6">
                 <div class="card">
-                    <div class="card-image">
-                        <img src="img/1.jpeg">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 220px;" src="img/produk/pupukB.jpg">
                     </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pupuk Tanaman NPK<i class="material-icons right">more_vert</i></span> <!--maksimal 20 karakter-->
+                        <div class="card-action">
+                            <p class="harga-produk">Rp 10.500</p>
+                        </div>
+                        <a class="waves-effect waves-light btn warna-hijau-gelap" style="width: 100%; margin-top: 20px;">Beli</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pupuk Tanaman NPK Yaramila dalam Botol<i class="material-icons right">close</i></span>
                         <div class="warna-star">
                             <i class="material-icons">star</i>
                             <i class="material-icons">star</i>
@@ -137,30 +169,34 @@
                             <i class="material-icons">star</i>
                             <i class="material-icons">star</i>
                         </div>
-
-                        <p>Rp 12.000</p>
+                        <p><i class="material-icons">location_on</i> Kab. Malang</p>
+                        <p>Berat 150gram
+                            <br>total berat 50gram
+                            <br>botol plastik tebal dilengkapi 2 tutup yang tdk kedap bocor dan tdk mudah pecah.
+                            <br><br>Keuntungan menggunakan pupuk NPK YaraMila
+                            <br><br>1. Pupuk YaraMila adalah pupuk majemuk yang diproduksi dengan teknologi mutakhir dengan komposisi hara yang merata pada setiap butiran prill, sehingga memudahkan aplikasi baik sebagai pupuk dasar maupun pupuk susulan tanaman. Mudah larut dalam air sehingga sangat cocok untuk aplikasi sistem cor dan penaburan langsung di atas permukaan tanah secara merata maupun larikan.
+                            <br><br>2. Kandungan unsur hara pada pupuk YaraMila sangat cepat diserap oleh tanaman, sehingga dapat memacu pertumbuhan tanaman serta meningkatkan kualitas buah dan hasil produksi.
+                            <br><br>3. Pupuk YaraMila memberikan reaksi super cepat pada tanaman karena sebagian Nitrigen dalam bentuk NO3 (Nitrate) yang langsung tersedia bagi tanaman dan dapat membantu membantu penyerapan unsur hara Kalium, Magnesium, dan Kalsium sehingga dapat mempercepat proses pembungaan, pembuahan dan memacu pertumbuhan pada pucuk tanaman serta menekan serangan jamur dan penyakit.
+                            <br><br>4. Sangat cocok digunakan pada semua jenis Tanaman Buah, Bunga, Sayuran, Tanaman Pangan dan Palawija serta Tanaman Perkebunan (Kelapa Sawit, Coklat, Karet, Kopi, dll).
+                            <br><br>5. Dosis pemakaian: sistem tabur 100-1000 kg/ha dan sistem cor 4-10 kg/200 liter air.
+                        </p>
                     </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
+                </div>    
             </div>
-
-            <div class="col l3 m6">
+            <div class="col l4 m6">
                 <div class="card">
-                    <div class="card-image">
-                        <img src="img/frezier4.jpg">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 220px;" src="img/produk/pupukC.jpg">
                     </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pupuk Bunga Pemacu<i class="material-icons right">more_vert</i></span> <!--maksimal 20 karakter-->
+                        <div class="card-action">
+                            <p class="harga-produk">Rp 12.000</p>
+                        </div>
+                        <a class="waves-effect waves-light btn warna-hijau-gelap" style="width: 100%; margin-top: 20px;">Beli</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pupuk Bunga Pemacu Pembungaan dan Pembuahan Istimewa<i class="material-icons right">close</i></span>
                         <div class="warna-star">
                             <i class="material-icons">star</i>
                             <i class="material-icons">star</i>
@@ -168,136 +204,53 @@
                             <i class="material-icons">star</i>
                             <i class="material-icons">star_border</i>
                         </div>
-
-                        <p>Rp 12.000</p>
+                        <p><i class="material-icons">location_on</i> Kab. Malang</p>
+                        <p>Pupuk ISTIMEWA dengan kandungan Nitrat Nitrogen (NO3) dan Kalium (K20) yang mudah dan cepat diserap tanaman, berguna untuk merangsang pembungaan, pembuahan tanaman, serta meningkatkan kualitas hasil panen.
+                            <br><br>Manfaat untuk tanaman sayuran atau buah buahan :
+                            <br>- Mudah diserap oleh tanaman, sehingga pertumbuhan tanaman lebih cepat dan seragam. Terutama untuk tanaman sayuran / buah di pot , untuk tanaman di kebun juga dianjurkan menggunakan ini agar hasil super maksimal
+                            <br>- pupuk ini tidak boleh digunakan untuk proses pembenihan dari biji / menanam biji / benih
+                            <br>- Meningkatkan ketahanan tanaman terhadap penyakit yang disebabkan oleh bakteri atau jamur karena sel tanaman lebih padat.
+                            <br>- Merangsang pembentukan bunga dan memperbaiki kualitas buah.
+                            <br>- Panen menjadi lebih serempak.
+                            <br>- Buah menjadi lebih tahan terhadap penyimpanan dan pengiriman jarak jauh.
+                            <br>- Kandungan Chlor (Cl) sangat rendah sehingga tidak menyebabkan keracunan pada tanaman.
+                        </p>
                     </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l3 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/frezier2.jpg">
-                    </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
-                        <div class="warna-star">
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star_half</i>
-                        </div>
-
-                        <p>Rp 12.000</p>
-                    </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l3 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/frezier3.jpg">
-                    </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
-                        <div class="warna-star">
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                        </div>
-
-                        <p>Rp 12.000</p>
-                    </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
+                </div>    
+            </div>  
         </div>
+        <ul class="pagination" style="text-align: right;">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
     </div>
     <!--akhir produk ...-->
-
-    <hr>
 
     <!--awal produk ...-->
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h3 class="center-align">Produk Best</h3>
+                <hr><h5 class="center-align thick">PRODUK TERAKHIR DILIHAT</h5><hr style="margin-bottom: 40px;">
             </div>
-
-
-            <div class="col l3 m6">
+            <div class="col l4 m6">
                 <div class="card">
-                    <div class="card-image">
-                        <img src="img/1.jpeg">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 220px;" src="img/produk/pupukAA.jpg">
                     </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
-                        <div class="warna-star">
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pupuk NPK Bianglala<i class="material-icons right">more_vert</i></span> <!--maksimal 20 karakter-->
+                        <div class="card-action">
+                            <p class="harga-produk">Rp 10.000</p>
                         </div>
-
-                        <p>Rp 12.000</p>
+                        <a class="waves-effect waves-light btn warna-hijau-gelap" style="width: 100%; margin-top: 20px;">Beli</a>
                     </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l3 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/frezier4.jpg">
-                    </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pupuk NPK Bianglala<i class="material-icons right">close</i></span>
                         <div class="warna-star">
                             <i class="material-icons">star</i>
                             <i class="material-icons">star</i>
@@ -305,61 +258,40 @@
                             <i class="material-icons">star</i>
                             <i class="material-icons">star_border</i>
                         </div>
-
-                        <p>Rp 12.000</p>
+                        <p><i class="material-icons">location_on</i> Kota Malang</p>
+                        <p>PT BUMI INDO RAHARJA
+                            <br><br>Spesifikasi: Nitrogen (N) 16% Phospate (P205) 16% Kalium (K20) 16% 
+                            <br>Berat: 1Kg
+                            <br><br>Pupuk NPK 16:16:16 Bianglala adalah pupuk pada masa bertumbuhan, berkualitas terpercaya yang sudah dipakai oleh petani di seluruh dunia. Dengan segala kelebihan dan keutamaannya pupuk ini dapat meningkatkan produksi serta meningkatkan kualitas panen.
+                            <br><br>Adapun Manfaat Pupuk NPK Bianglala adalah :
+                            <br>-Menjadikan daun tanaman lebih segar dan hijau yang akan mempermudah proses fotosintesis Meningkatkan perkembangan akar, sehingga perakaran menjadi lebih sehat, kuat, lebat, lebih cepat tinggi serta menambah jumlah anakan lebih banyak
+                            <br>-Batang menjadi lebih kuat dan kokoh yang akan berdampak dengan ketahanan tanaman dari serangan hama dan penyakit serta meminimalisir resiko rebah (roboh)
+                            <br>-Mengakselerasi pembentukan bunga dan pemasakan biji, meningkatkan kandungan protein sehingga masa panen menjadi lebih cepat. Memperbesar jumlah biji serta buah pada setiap tangkai sehingga pembentukan karbohidrat dan pati lebih lancar. Ketahanan hasil panen selama pengangkutan dan penyimpanan menjadi lebih lama
+                            <br><br>Keuntungan Pupuk NPK Bianglala :
+                            <br>-Hampir tidak ada efek negatif serta resiko dalam penggunaan dan pencampuran di lahan
+                            <br>-Kandungan unsurnya merata dan seimbang pada setap butirannya
+                            <br>-Berbentuk butiran homogen yang lebih mudah dalam pengaplikasiannya
+                            <br>-Sudah terbukti dan teruji selama puluhan tahun dalam meningkatkan produksi pertanian
+                            <br>-Pupuk NPK 16:16:16 Bianglala seluruhnya larut dalam air yang akan lebih cepat dan mudah diserap tanaman dengan kandungan unsur hara makro yang lengkap yang terdiri dari Nitrogen, Posfor dan Kalium serta unsur hara mikro Kalsium (Ca), Magneium (Mg), Sulfur (S), protein dan lain-lain yang akan menjadikan tanaman lebih sehat, sempurna dan kuat.
+                        </p>
                     </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
+                </div>    
             </div>
-
-            <div class="col l3 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/frezier2.jpg">
+    
+            <div class="col l4 m6">
+                 <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 220px;" src="img/produk/pupukBB.jpg">
                     </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
-                        <div class="warna-star">
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star_half</i>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pupuk NPK Rumput<i class="material-icons right">more_vert</i></span> <!--maksimal 20 karakter-->
+                        <div class="card-action">
+                            <p class="harga-produk">Rp 10.000</p>
                         </div>
-
-                        <p>Rp 12.000</p>
+                        <a class="waves-effect waves-light btn warna-hijau-gelap" style="width: 100%; margin-top: 20px;">Beli</a>
                     </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l3 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/frezier3.jpg">
-                    </div>
-
-                    <div class="card-content center-align">
-                        <p>Pupuk terbaik badas</p>
-
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pupuk NPK untuk Rumput<i class="material-icons right">close</i></span>
                         <div class="warna-star">
                             <i class="material-icons">star</i>
                             <i class="material-icons">star</i>
@@ -367,30 +299,67 @@
                             <i class="material-icons">star</i>
                             <i class="material-icons">star</i>
                         </div>
-
-                        <p>Rp 12.000</p>
+                        <p><i class="material-icons">location_on</i> Kota Malang</p>
+                        <p>untuk pemupukan rumput bisa menggunakan pupuk NPK. isi 250 gram. bisa untuk lahan 10 meter.</p>
                     </div>
-
-                    <div class="card-action">
-                        <p><i class="material-icons">home</i> Pt. Pupuk Indonesia</p>
-                        <p><i class="material-icons">add_location</i> Kota Malang</p>
-                    </div>
-
-                    <div class="card-action">
-                        <a class="waves-effect waves-light btn warna-kuning-gelap">Selengkapnya</a>
-                    </div>
-                </div>
+                </div>    
             </div>
+
+            <div class="col l4 m6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 220px;" src="img/produk/pupukCC.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pupuk Super Tanaman Hias<i class="material-icons right">more_vert</i></span> <!--maksimal 20 karakter-->
+                        <div class="card-action">
+                            <p class="harga-produk">Rp 12.000</p>
+                        </div>
+                        <a class="waves-effect waves-light btn warna-hijau-gelap" style="width: 100%; margin-top: 20px;">Beli</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pupuk Super Khusus Tanaman Hias Daun dan Sayuran<i class="material-icons right">close</i></span>
+                        <div class="warna-star">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_border</i>
+                        </div>
+                        <p><i class="material-icons">location_on</i> Kab. Malang</p>
+                        <p>Isi 250 ml
+                            <br><br>kandungan unsur Nitrogen (N) sampai 60% sehingga membuat tanaman hias daun dan sayuran menjadi lebih hijau dan sehat.
+                            <br><br>botol plastik tebal dilengkapi 2 tutup yang tdk kedap bocor dan tdk mudah pecah.
+                            <br><br>Keuntungan menggunakan pupuk esabe seed ini:
+                            <br>- Mudah larut dalam air sehingga sangat cocok untuk aplikasi sistem cor dan penaburan langsung di atas permukaan tanah secara merata maupun larikan.
+                            <br>- Sangat cepat diserap oleh tanaman, sehingga dapat memacu pertumbuhan tanaman serta meningkatkan hasil produksi
+                            <br>- Pupuk tanaman ini memberikan reaksi berbeda dengan npk biasana. 
+                            <br>- Pupuk organik ini merangsang daun, merangsang warna daun, merangsang tunas baru, memacu pertumbuhan, memacu akar baru, melebarkan daun.
+                            <br>Sangat cocok digunakan pada semua jenis Tanaman hias daun, sayur dan tanaman hijau lainnya, aman buat tanaman yg bs dikomsumsi 
+                        </p>
+                    </div>
+                </div>    
+            </div>  
         </div>
+        <ul class="pagination" style="text-align: right;">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
     </div>
     <!--akhir produk ...-->
 <!--akhir konten-->
 
 <!--footer-->
-    <footer class="page-footer warna-grey-sedikit">
-
-        <div class="container black-text">
-            Agrid adalah
+    <footer class="page-footer warna-grey-sedikit" style="background-image: url(img/background.jpg)">
+        <div class="container green-text" style="text-align: left;">
+                <p>AGRID (Agriculture Indonesia) merupakan sebuah wadah bagi para pemilik lahan atau petani untuk
+                    <br>mendapatkan pupuk yang berkualitas dan dengan harga yang terjangkau.
+                </p>
         </div>
 
         <hr>
@@ -398,7 +367,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s4">
-                    <h5 class="tulisan-hijau-gelap">Agrid</h5>
+                    <img src="img/logo-agrid.png" style="width: 100px;">
                     <p class="black-text">
                         <i class="material-icons">local_phone</i>
                         +62 89 687 837 120
@@ -410,12 +379,12 @@
                     </p>
 
                     <p class="black-text">
-                        <i class="material-icons">add_location</i>
-                        Lokasinya di rahasiakan dulu ya
+                        <i class="material-icons">location_on</i>
+                        Jl. Veteran No.8, Malang, 65145, Indonesia
                     </p>
                 </div>
 
-                <div class="col s4">
+                <!-- <div class="col s4">
                     <h5 class="tulisan-hijau-gelap">Perusahaan</h5>
                     <ul class="perusahaan-list">
                         <li><a class="black-text" href="#!">Tentang Kami</a></li>
@@ -423,23 +392,21 @@
                         <li><a class="black-text" href="#!">Blog</a></li>
                         <li><a class="black-text" href="#!">Pertanyaan</a></li>
                     </ul>
-                </div>
+                </div> -->
 
                 <div class="col s4">
                     <h5 class="tulisan-hijau-gelap">More Links</h5>
                     <ul class="icon-saya">
-                        <li><img src="img/google-plus.svg"></li>
-                        <li><img src="img/linkedin.svg"></li>
-                        <li><img src="img/line.svg"></li>
-                        <li><img src="img/instagram.svg"></li>
-                        <li><img src="img/facebook.svg"></li>
+                        <li><a class="btn-floating btn-small waves-effect waves-light"><img src="img/instagram.svg"></a></li>
+                        <li><a class="btn-floating btn-small waves-effect waves-light"><img src="img/facebook.svg"></a></li>
+                        <li><a class="btn-floating btn-small waves-effect waves-light"><img src="img/line.svg"></a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container center-align black-text">
-                © 2018 Copyright Text
+                © 2018 Agrid, All rights reserved.
             </div>
         </div>
     </footer>
